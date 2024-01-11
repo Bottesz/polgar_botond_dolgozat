@@ -1,5 +1,6 @@
 import feladatok
 import vszamok
+import adatok
 #feladatok.beker()
 
 #feladatok.masodik()
@@ -14,5 +15,7 @@ print(f"\t Páros számok összege: {possz}")
 prtln_ossz=vszamok.prtln_osszege()
 print()
 print(f"\t Páratlan számok összege: {prtln_ossz}")
-
-
+print()
+adatok.csapatok_szama()
+print()
+adatok.csapat_kiiras()
